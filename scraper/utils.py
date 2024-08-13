@@ -7,7 +7,7 @@ import re
 import os
 from os.path import join, realpath, exists
 from pathlib import Path
-
+from typing import Set
 from random import randint
 from datetime import datetime
 from datetime import datetime as dt
@@ -221,21 +221,17 @@ def close_modern_layout_signup_modal(driver):
             "Error at close_modern_layout_signup_modal: {}".format(ex))
 
 
-def scroll_down(driver, layout):
+def scroll_down(driver):
     """expects driver's instance as a argument, and it scrolls down page to the most bottom till the height"""
     try:
-        if layout == "old":
-            driver.execute_script(
-                "window.scrollTo(0, document.body.scrollHeight);")
-        elif layout == "new":
-            body = driver.find_element(By.CSS_SELECTOR, "body")
-            for _ in range(randint(1, 3)):
-                body.send_keys(Keys.PAGE_UP)
-            time.sleep(randint(5, 6))
-            for _ in range(randint(5, 8)):
-                body.send_keys(Keys.PAGE_DOWN)
-            # driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            # close_modern_layout_signup_modal(driver)
+        body = driver.find_element(By.CSS_SELECTOR, "body")
+        for _ in range(randint(1, 3)):
+            body.send_keys(Keys.PAGE_UP)
+        time.sleep(randint(5, 6))
+        for _ in range(randint(5, 8)):
+            body.send_keys(Keys.PAGE_DOWN)
+        # driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        # close_modern_layout_signup_modal(driver)
     except Exception as ex:
         # if any error occured than close the driver and exit
         close_driver(driver)
@@ -262,25 +258,14 @@ def close_popup(driver):
         logger.exception("Error at close_popup method : {}".format(ex))
 
 
-def wait_for_element_to_appear(driver, layout, timeout):
+def wait_for_element_to_appear(driver, timeout):
     """expects driver's instance, wait for posts to show.
     post's CSS class name is userContentWrapper
     """
     try:
-        if layout == "old":
-            # wait for page to load so posts are visible
-            body = driver.find_element(By.CSS_SELECTOR, "body")
-            for _ in range(randint(3, 5)):
-                body.send_keys(Keys.PAGE_DOWN)
-            WebDriverWait(driver, timeout).until(EC.presence_of_element_located(
-                (By.CSS_SELECTOR, '.userContentWrapper')))
-            return True
-        elif layout == "new":
-            WebDriverWait(driver, timeout).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "[aria-posinset]")))
-            print("new layout loaded")
-
-            return True
+        WebDriverWait(driver, timeout).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "[aria-posinset]")))
+        return True
 
     except WebDriverException:
         # if it was not found,it means either page is not loading or it does not exists
@@ -341,6 +326,17 @@ def data_path():
     if not os.path.exists(_data_path):
         os.makedirs(_data_path)
     return _data_path
+
+
+def parse_csv(file_path: str) -> Set[str]:
+    res = set()
+    with open(file_path, mode='r', newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for i, row in enumerate(reader):
+            if i == 0:
+                continue
+            res.add(row['id'])
+    return res
 
 
 def save_csv(data):

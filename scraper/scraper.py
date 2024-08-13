@@ -1,3 +1,5 @@
+import os
+from os.path import join
 from seleniumwire import webdriver
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
@@ -60,42 +62,31 @@ class FbScraper:
         self.URL = f"https://facebook.com/groups/{self.page_or_group_name}"
         self.driver: webdriver.Firefox
         self.proxy = proxy
-        self.layout = None
         self.timeout = timeout
         self.headless = headless
         self.isGroup = isGroup
         self.username = username
         self.password = password
         self.data_dct = {}
-        # __extracted_post contains all the post's ID that have been scraped before and as it set()
-        # it avoids post's ID duplication
-        self.extracted_post = set()
+        self.visited_posts = set()
+        root_path = utils.data_path()
+        file_path = join(root_path, "posts.csv")
+
+        if os.path.exists(file_path):
+            self.visited_posts = utils.parse_csv(file_path)
 
     def _init_driver(self):
         self.driver = Init(self.proxy, self.headless).init()
 
-    def _handle_popup(self, layout):
+    def _handle_popup(self):
         try:
-            if layout == "old":
-                # if during scrolling any of error or signup popup shows
-                utils.close_error_popup(self.driver)
-                utils.close_popup(self.driver)
-            elif layout == "new":
-                utils.close_modern_layout_signup_modal(self.driver)
-                utils.close_cookie_consent_modern_layout(self.driver)
+            utils.close_modern_layout_signup_modal(self.driver)
+            utils.close_cookie_consent_modern_layout(self.driver)
         except Exception as ex:
             logger.exception("Error at handle_popup : {}".format(ex))
 
     def reach_timeout(self, start_time, current_time) -> bool:
         return (current_time - start_time) > self.timeout
-
-    def remove_duplicates(self, posts):
-        if len(self.extracted_post) == 0:
-            self.extracted_post.update(posts)
-            return posts
-        removed_duplicated = [post for post in posts if post not in self.extracted_post]
-        self.extracted_post.update(posts)
-        return removed_duplicated
 
     def scrap_to_json(self):
         self._init_driver()
@@ -104,40 +95,39 @@ class FbScraper:
         self.driver.get(self.URL)
 
         find.accept_cookies(self.driver)
-        # pass login creds
+        # pass login and pass
         self.username is not None and find.login(self.driver, self.username, self.password)
 
-        self.layout = find.detect_ui(self.driver)
         # sometimes we get popup that says "your request couldn't be processed", however
         # posts are loading in background if popup is closed, so call this method in case if it pops up.
         utils.close_error_popup(self.driver)
 
-        elements_have_loaded = utils.wait_for_element_to_appear(self.driver, self.layout, self.timeout)
-        utils.scroll_down(self.driver, self.layout)
-        self._handle_popup(self.layout)
+        elements_have_loaded = utils.wait_for_element_to_appear(self.driver, self.timeout)
+        utils.scroll_down(self.driver)
+        self._handle_popup()
 
         while len(self.data_dct) < self.posts_count and elements_have_loaded:
-            self._handle_popup(self.layout)
+            self._handle_popup()
+            posts = find.find_all_posts(self.driver, self.isGroup)
 
-            all_posts = find.find_all_posts(self.driver, self.layout, self.isGroup)
-            all_posts = self.remove_duplicates(all_posts)
+            logger.info("Found posts len: {}".format(len(posts)))
 
-            logger.info("Found posts len: {}".format(len(all_posts)))
-
-            for post in all_posts:
+            for post in posts:
                 try:
-                    key, post_url, link_element = find.find_post_status(post, self.layout, self.isGroup)
+                    key, post_url, link_element = find.find_post_status(post, self.isGroup)
 
-                    if post_url is None:
+                    if post_url is None or key in self.visited_posts:
                         continue
 
+                    self.visited_posts.add(key)
+
                     post_url = post_url.split('?')[0]
-                    name, profile_url = find.find_post_name(post, self.layout)
-                    content = find.find_post_content(post, self.driver, self.layout)
-                    group_images = find.find_post_image_url(post, self.layout)
+                    name, profile_url = find.find_post_name(post)
+                    content = find.find_post_content(post, self.driver)
+                    group_images = find.find_post_image_url(post)
 
                     create_at = find.find_post_time(
-                        post, self.layout, link_element, self.driver, self.isGroup)
+                        post, link_element, self.driver, self.isGroup)
 
                     self.data_dct[key] = {
                         "name": name,
@@ -150,15 +140,13 @@ class FbScraper:
                 except Exception as ex:
                     logger.exception("Error at find_elements method : {}".format(ex))
 
-            current_time = time.time()
-
-            if self.reach_timeout(start_at, current_time):
+            if self.reach_timeout(start_at, time.time()):
                 logger.setLevel(logging.INFO)
                 logger.info('Timeout...')
-                time.sleep(10)
+                time.sleep(10.0)
                 start_at = time.time()
 
-            utils.scroll_down(self.driver, self.layout)
+            utils.scroll_down(self.driver)
 
         for key, item in self.data_dct.items():
             self.driver.get(item['profile_url'])

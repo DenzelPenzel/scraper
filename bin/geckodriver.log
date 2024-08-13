@@ -5949,3 +5949,364 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yl/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1723536851371	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 1723536965776	Marionette	INFO	Stopped listening on port 53407
+1723537627292	geckodriver	INFO	Listening on 127.0.0.1:56951
+1723537627974	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofile8K49kF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723537628179	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723537628366	Marionette	INFO	Listening on port 56964
+WebDriver BiDi listening on ws://127.0.0.1:56952
+Read port: 56964
+1723537628494	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:56953","sslProxy":"[::ffff:7f00:1]:56953"}
+1723537628494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723537643306	geckodriver	INFO	Listening on 127.0.0.1:57108
+1723537643960	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileAgdDDw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723537644138	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723537644285	Marionette	INFO	Listening on port 57121
+WebDriver BiDi listening on ws://127.0.0.1:57109
+Read port: 57121
+1723537644441	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:57110","sslProxy":"[::ffff:7f00:1]:57110"}
+1723537644441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yl/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723537675136	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+1723537749768	Marionette	INFO	Stopped listening on port 57121
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: TypeError: can't access dead object
+1723537796351	geckodriver	INFO	Listening on 127.0.0.1:58018
+1723537797080	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileiRvQTl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723537797288	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723537797465	Marionette	INFO	Listening on port 58035
+WebDriver BiDi listening on ws://127.0.0.1:58019
+Read port: 58035
+1723537797571	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:58020","sslProxy":"[::ffff:7f00:1]:58020"}
+1723537797572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yB/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723537827877	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+1723543275902	Marionette	INFO	Stopped listening on port 58035
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc, line 222: Script terminated by timeout at:
+O/G<@https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc:222:2505
+
+1723548068654	geckodriver	INFO	Listening on 127.0.0.1:62560
+1723548069385	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilevCjc9V"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723548069587	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723548069757	Marionette	INFO	Listening on port 62573
+WebDriver BiDi listening on ws://127.0.0.1:62561
+Read port: 62573
+1723548069887	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:62562","sslProxy":"[::ffff:7f00:1]:62562"}
+1723548069887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yB/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723548099594	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: uncaught exception: undefined
+1723548131572	Marionette	INFO	Stopped listening on port 62573
+1723550477554	geckodriver	INFO	Listening on 127.0.0.1:56237
+1723550478234	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileiQXIew"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723550478415	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723550478559	Marionette	INFO	Listening on port 56250
+WebDriver BiDi listening on ws://127.0.0.1:56238
+Read port: 56250
+1723550478679	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:56239","sslProxy":"[::ffff:7f00:1]:56239"}
+1723550478679	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yl/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723550508862	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+1723550538894	Marionette	INFO	Stopped listening on port 56250
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/CaptiveDetect.sys.mjs, line 20: : 
+1723551154016	geckodriver	INFO	Listening on 127.0.0.1:59324
+1723551154698	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileK5aG4a"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723551154885	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723551155031	Marionette	INFO	Listening on port 59337
+WebDriver BiDi listening on ws://127.0.0.1:59325
+Read port: 59337
+1723551155155	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:59326","sslProxy":"[::ffff:7f00:1]:59326"}
+1723551155155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yB/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723551185057	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz, line 74: Script terminated by timeout at:
+b.getSubscriptionsForType@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz:74:525
+c.emit@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz:78:1006
+@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz:329:1059
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz:69:10432
+d@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz:324:2086
+
+1723551229347	Marionette	INFO	Stopped listening on port 59337
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: TypeError: can't access dead object
+1723551376089	geckodriver	INFO	Listening on 127.0.0.1:60504
+1723551376758	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilea4anYl"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723551376936	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723551377080	Marionette	INFO	Listening on port 60517
+WebDriver BiDi listening on ws://127.0.0.1:60505
+Read port: 60517
+1723551377205	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:60506","sslProxy":"[::ffff:7f00:1]:60506"}
+1723551377205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yl/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723551407623	geckodriver	INFO	Listening on 127.0.0.1:60763
+1723551408261	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileH66ngb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723551408406	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723551408527	Marionette	INFO	Listening on port 60777
+WebDriver BiDi listening on ws://127.0.0.1:60764
+Read port: 60777
+1723551408633	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:60765","sslProxy":"[::ffff:7f00:1]:60765"}
+1723551408633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yl/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723551439160	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723552198792	geckodriver	INFO	Listening on 127.0.0.1:64111
+1723552199480	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofile9Y0ODs"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723552199667	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723552199816	Marionette	INFO	Listening on port 64124
+WebDriver BiDi listening on ws://127.0.0.1:64112
+Read port: 64124
+1723552199935	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:64113","sslProxy":"[::ffff:7f00:1]:64113"}
+1723552199935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yl/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723552229691	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723552296074	geckodriver	INFO	Listening on 127.0.0.1:64830
+1723552296731	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileFXImhM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723552296892	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723552297031	Marionette	INFO	Listening on port 64844
+WebDriver BiDi listening on ws://127.0.0.1:64831
+Read port: 64844
+1723552297139	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:64832","sslProxy":"[::ffff:7f00:1]:64832"}
+1723552297139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yl/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iEhe4/yn/l/rt/VDgaJnW6I86.js?_nc_x=C6p1p3PWgRc, line 38: WebGL context was lost.
+1723552327401	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723552394146	geckodriver	INFO	Listening on 127.0.0.1:49218
+1723552394790	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilesjUNgR"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723552394944	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723552395083	Marionette	INFO	Listening on port 49231
+WebDriver BiDi listening on ws://127.0.0.1:49219
+Read port: 49231
+1723552395191	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:49220","sslProxy":"[::ffff:7f00:1]:49220"}
+1723552395191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yl/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723552425253	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723552462812	Marionette	INFO	Stopped listening on port 49231
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: TypeError: can't access dead object
+1723554193279	geckodriver	INFO	Listening on 127.0.0.1:58923
+1723554193925	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilehU0PoO"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723554194068	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723554194205	Marionette	INFO	Listening on port 58936
+WebDriver BiDi listening on ws://127.0.0.1:58924
+Read port: 58936
+1723554194312	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:58925","sslProxy":"[::ffff:7f00:1]:58925"}
+1723554194312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yl/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6BZ72-ox1QoCo3_jDdOQVPU9teV9IEUgtlDlvsPJ2Je3xn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQ4-PR2ddFYCEbuFfY5iG4qrRd4uuienu_HXm3ztINVvTDNkPrOwEPTxt.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723554224123	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iEhe4/yn/l/rt/VDgaJnW6I86.js?_nc_x=C6p1p3PWgRc, line 38: WebGL context was lost.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iEhe4/yn/l/rt/VDgaJnW6I86.js?_nc_x=C6p1p3PWgRc, line 38: WebGL context was lost.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz, line 324: Script terminated by timeout at:
+w@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz:324:483
+d@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz:324:1683
+
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iWE_4/yX/l/rt/S7L8aoTIjy5qI6SMyM5aGK8B8Rd_HQtntp4XmSz1akNb45r07V-RHZ0M0_hqYrAwXR4uPDRCfLhhkKGnNRrVqmreAtLYfo6IOenGBrRjsymv3jZtC8GdV57_-HucRCoinwiAfCE2BW_quoD3iUk-aQ7MdOi3PIt8wyCohhY_ENFY9xruXTt3Wlhuoca8khBl2jL_vtxnilNPbEx_CJUHdufqzkJN1-04euHXiYRP_PBJw7lbptBJ7kTMAIdWIcmV9qHNlltSahGjMzJAHRHhv-OUiQzj_6Tcsd6LHDq38KhVJa64xbJwnB16RJtj2Ck2RfFnXgssVA.js?_nc_x=C6p1p3PWgRc, line 556: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz, line 69: Script terminated by timeout at:
+pushGuard@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz:69:2771
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz:69:10172
+w@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz:324:511
+d@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/ByBOPM6nnET.js?_nc_x=Ij3Wp8lg5Kz:324:1683
+
+JavaScript error: , line 0: uncaught exception: undefined
+1723554645430	Marionette	INFO	Stopped listening on port 58936
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc, line 182: Script terminated by timeout at:
+i@https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc:182:902
+i@https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc:182:905
+handleDefine/<@https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc:183:377
+H@https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc:56:2676
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc:70:10432
+H@https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc:56:1775
+C@https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc:56:1342
+E@https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc:56:1480
+c.$6@https://static.xx.fbcdn.net/rsrc.php/v3iVI_4/yg/l/rt/O-tN2aLZP_CAcrlrgo0llX8l3PNborQUisW4uFteWmIEcshn5H67oULHs6PyhnZCsBRhd6H3YJ7d7y4EE0d7zBzsvkCY47MiTAeUekypOyfh0zqinz7BPpLtnc6I7qqAYQgsArsO89bFi3p-dkgpDnKb-i72okLVd3xPXjUh46dP4iWJ-DZH2mvYGvPNpMex05pzMEa0rEB6Ed7IoEXgtwsP-On7q2NtTlIlypfVxIr77Dv5Za76JTjkYUc-tM2uMCMWmWXvU247CTrOR6Ipxz2ybhdQAs9kEAyJjVqjOZi_1qkPWCI1gyFrg0y4TwiTyukDaS45EC.js?_nc_x=C6p1p3PWgRc:347:6502
+c.isPushRegistered/a</<@https://static.xx.fbcdn.net/rsrc.php/v3iVI_4/yg/l/rt/O-tN2aLZP_CAcrlrgo0llX8l3PNborQUisW4uFteWmIEcshn5H67oULHs6PyhnZCsBRhd6H3YJ7d7y4EE0d7zBzsvkCY47MiTAeUekypOyfh0zqinz7BPpLtnc6I7qqAYQgsArsO89bFi3p-dkgpDnKb-i72okLVd3xPXjUh46dP4iWJ-DZH2mvYGvPNpMex05pzMEa0rEB6Ed7IoEXgtwsP-On7q2NtTlIlypfVxIr77Dv5Za76JTjkYUc-tM2uMCMWmWXvU247CTrOR6Ipxz2ybhdQAs9kEAyJjVqjOZi_1qkPWCI1gyFrg0y4TwiTyukDaS45EC.js?_nc_x=C6p1p3PWgRc:347:3397
+
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i6GG4/yS/l/rt/awDyJwm3Plm.js?_nc_x=C6p1p3PWgRc, line 296: TypeError: can't access dead object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/PJpwk26nKr5.js?_nc_x=C6p1p3PWgRc, line 70: Error: MAWMIC Failed

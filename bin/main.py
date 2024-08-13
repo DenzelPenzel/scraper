@@ -3,7 +3,6 @@ import scraper
 import json
 import logging
 import asyncio
-
 import aiohttp
 from dotenv import load_dotenv
 
@@ -34,11 +33,11 @@ async def bound_send_post(sem: asyncio.Semaphore, session: aiohttp.ClientSession
 async def main():
     username = os.getenv('USERNAME')
     password = os.getenv('PASS')
-
     group_name = "UTrippers"
-    posts_count = 10
+    posts_count = 100
     timeout = 600
-    headless = False
+    headless = True
+    sem = asyncio.Semaphore(max_concurrent_requests)
 
     data = scraper.FbScraper(
         page_or_group_name=group_name,
@@ -52,9 +51,8 @@ async def main():
         timeout=timeout
     ).scrap_to_json()
 
+    # save parsed data to csv file
     scraper.save_csv(data)
-
-    sem = asyncio.Semaphore(max_concurrent_requests)
 
     async with aiohttp.ClientSession() as session:
         json_data = json.loads(data)

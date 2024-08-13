@@ -53,52 +53,41 @@ def get_status_link(link_list):
     return status
 
 
-def find_post_status(post, layout, isGroup):
+def find_post_status(post, isGroup):
     """finds URL of the post, then extracts link from that URL and returns it"""
     try:
         link = None
         status_link = None
         status = None
 
-        if layout == "old":
-            # aim is to find element that looks like <a href="URL" class="_5pcq"></a>
-            # after finding that element, get it's href value and pass it to different method that extracts post_id from that href
-            status_link = post.find_element(By.CLASS_NAME, "_5pcq").get_attribute(
-                "href"
-            )
-            print("old link layouut\n")
-            # extract out post id from post's url
+        link = post.find_element(
+            By.CSS_SELECTOR, 'span > a[role="link"]' if isGroup else 'span > a[aria-label][role="link"]'
+        )
+        if link is not None:
+            status_link = link.get_attribute("href")
             status = extract_id_from_link(status_link)
-        elif layout == "new":
+            if not isGroup and status_link and status:  # early exit for non group
+                return status, status_link, link
 
-            link = post.find_element(
-                By.CSS_SELECTOR, 'span > a[role="link"]' if isGroup else 'span > a[aria-label][role="link"]'
-            )
-            if link is not None:
-                status_link = link.get_attribute("href")
-                status = extract_id_from_link(status_link)
-                if not isGroup and status_link and status:  # early exit for non group
-                    return status, status_link, link
+        links = post.find_elements(By.TAG_NAME, 'a')
+        if links:
+            # Initialize variables to store the matching link element and URL
+            matching_link_element = None
+            post_url = None
 
-            links = post.find_elements(By.TAG_NAME, 'a')
-            if links:
-                # Initialize variables to store the matching link element and URL
-                matching_link_element = None
-                post_url = None
+            # Iterate over links to find the first one that matches the criteria
+            for link in links:
+                href = link.get_attribute('href')
+                if href and '/groups/' in href:
+                    post_url = href  # Store the URL
+                    matching_link_element = link  # Store the link element
+                    break  # Exit the loop after finding the first match
 
-                # Iterate over links to find the first one that matches the criteria
-                for link in links:
-                    href = link.get_attribute('href')
-                    if href and '/groups/' in href:
-                        post_url = href  # Store the URL
-                        matching_link_element = link  # Store the link element
-                        break  # Exit the loop after finding the first match
-
-                # Check if a matching link was found
-                if post_url and matching_link_element:
-                    status = extract_id_from_link(post_url)
-                    # Now you have the URL, the status, and the matching link element itself
-                    return status, post_url, matching_link_element
+            # Check if a matching link was found
+            if post_url and matching_link_element:
+                status = extract_id_from_link(post_url)
+                # Now you have the URL, the status, and the matching link element itself
+                return status, post_url, matching_link_element
 
     except NoSuchElementException:
         # if element is not found
@@ -110,24 +99,16 @@ def find_post_status(post, layout, isGroup):
     return status, status_link, link
 
 
-def find_share(post, layout):
+def find_share(post):
     """finds shares count of the facebook post using selenium's webdriver's method"""
     try:
-        if layout == "old":
-            # aim is to find element that have datatest-id attribute as UFI2SharesCount/root
-            shares = post.find_element(
-                By.CSS_SELECTOR, "._355t._4vn2"
-            ).get_attribute("textContent")
-            shares = extract_numbers(shares)
-        elif layout == "new":
-            element = post.find_element(
-                By.XPATH, './/div/span/div/span[contains(text(), " share")]'
-            )
-            shares = "0"
-            if not element:
-                return shares
-            return element.text.replace(' shares', '').replace(' share', '')
-        return shares
+        element = post.find_element(
+            By.XPATH, './/div/span/div/span[contains(text(), " share")]'
+        )
+        shares = "0"
+        if not element:
+            return shares
+        return element.text.replace(' shares', '').replace(' share', '')
     except NoSuchElementException:
         # if element is not present that means there wasn't any shares
         shares = 0
@@ -153,26 +134,16 @@ def find_reactions(post):
     return reactions_all
 
 
-def find_comments(post, layout):
+def find_comments(post):
     """finds comments count of the facebook post using selenium's webdriver's method"""
     try:
-        comments = ""
-        if layout == "old":
-            comments = post.find_element(By.CSS_SELECTOR, "a._3hg-").get_attribute(
-                "textContent"
-            )
-            # extract numbers from text
-            comments = extract_numbers(
-                comments
-            )
-        elif layout == "new":
-            element = post.find_element(
-                By.XPATH, './/div/span/div/span[contains(text(), " comment")]'
-            )
-            comments = 0
-            if element is None:
-                return comments
-            return element.text.replace(' comments', '').replace(' comment', '')
+        element = post.find_element(
+            By.XPATH, './/div/span/div/span[contains(text(), " comment")]'
+        )
+        comments = 0
+        if element is None:
+            return comments
+        return element.text.replace(' comments', '').replace(' comment', '')
     except NoSuchElementException:
         comments = 0
     except Exception as ex:
@@ -207,63 +178,31 @@ def element_exists(element, css_selector):
         return False
 
 
-def find_post_content(post, driver, layout):
+def find_post_content(post, driver):
     """finds content of the facebook post using selenium's webdriver's method and returns string containing text of the posts"""
     try:
-        if layout == "old":
-            post_content = post.find_element(By.CLASS_NAME, "userContent")
-            # if 'See more' or 'Continue reading' is present in post
-            if element_exists(
-                    post_content, "span.text_exposed_link > a"
-            ):
-                element = post_content.find_element(
-                    By.CSS_SELECTOR, "span.text_exposed_link > a"
-                )  # grab that element
-                # if element have already the onclick function, that means it is expandable paragraph
-                if element.get_attribute("onclick"):
-                    # click 'see more' button to get hidden text as well
-                    click_see_more(driver, post_content)
-                    content = (
-                        extract_content(
-                            post_content
-                        )
-                    )  # extract content out of it
-                # if element have attribute of target="_blank"
-                elif element.get_attribute("target"):
-                    # if it does not have onclick() method, it means we'll to extract passage by request
-                    # if content have attribute target="_blank" it indicates that text will open in new tab,
-                    # so make a seperate request and get that text
-                    content = fetch_post_passage(
-                        element.get_attribute("href")
-                    )
-                else:
-                    content = post_content.get_attribute("textContent")
+        post_content = post.find_element(
+            By.CSS_SELECTOR, '[data-ad-preview="message"]'
+        )
+        # if "See More" button exists
+        if element_exists(
+                post_content, 'div[dir="auto"] > div[role]'
+        ):
+            element = post_content.find_element(
+                By.CSS_SELECTOR, 'div[dir="auto"] > div[role]'
+            )  # grab that element
+            if element.get_attribute("target"):
+                content = fetch_post_passage(element.get_attribute("href"))
             else:
-                # if it does not have see more, just get the text out of it
-                content = post_content.get_attribute("textContent")
-        elif layout == "new":
-            post_content = post.find_element(
-                By.CSS_SELECTOR, '[data-ad-preview="message"]'
-            )
-            # if "See More" button exists
-            if element_exists(
-                    post_content, 'div[dir="auto"] > div[role]'
-            ):
-                element = post_content.find_element(
-                    By.CSS_SELECTOR, 'div[dir="auto"] > div[role]'
-                )  # grab that element
-                if element.get_attribute("target"):
-                    content = fetch_post_passage(element.get_attribute("href"))
-                else:
-                    click_see_more(
-                        driver, post_content, 'div[dir="auto"] > div[role]'
-                    )
-                    content = post_content.get_attribute(
-                        "textContent"
-                    )  # extract content out of it
-            else:
-                # if it does not have see more, just get the text out of it
-                content = post_content.get_attribute("textContent")
+                click_see_more(
+                    driver, post_content, 'div[dir="auto"] > div[role]'
+                )
+                content = post_content.get_attribute(
+                    "textContent"
+                )  # extract content out of it
+        else:
+            # if it does not have see more, just get the text out of it
+            content = post_content.get_attribute("textContent")
 
     except NoSuchElementException:
         # if [data-testid="post_message"] is not found, it means that post did not had any text,either it is image or video
@@ -274,57 +213,50 @@ def find_post_content(post, driver, layout):
     return content
 
 
-def find_post_time(post, layout, link_element, driver, isGroup):
+def find_post_time(post, link_element, driver, isGroup):
     """finds posted time of the facebook post using selenium's webdriver's method"""
     try:
-        # extract element that looks like <abbr class='_5ptz' data-utime="some unix timestamp"> </abbr>
-        # posted_time = post.find_element_by_css_selector("abbr._5ptz").get_attribute("data-utime")
-        if layout == "old":
-            posted_time = post.find_element(By.TAG_NAME, "abbr").get_attribute(
-                "data-utime"
-            )
-            return datetime.datetime.fromtimestamp(float(posted_time)).isoformat()
-        elif layout == "new":
-            if isGroup:
-                # NOTE There is no aria_label on these link elements anymore
-                # Facebook uses a shadowDOM element to hide timestamp, which is tricky to extract
-                # An unsuccesful attempt to extract time from nested shadowDOMs is below
 
-                js_script = """
-                    // Starting from the provided element, find the SVG using querySelector
-                    var svgElement = arguments[0].querySelector('svg');
+        if isGroup:
+            # NOTE There is no aria_label on these link elements anymore
+            # Facebook uses a shadowDOM element to hide timestamp, which is tricky to extract
+            # An unsuccesful attempt to extract time from nested shadowDOMs is below
 
-                    // Assuming we're looking for a shadow DOM inside or related to the <use> tag, which is unconventional
-                    // var useElement = svgElement.querySelector('use');
+            js_script = """
+                // Starting from the provided element, find the SVG using querySelector
+                var svgElement = arguments[0].querySelector('svg');
 
-                    // Placeholder for accessing the shadow DOM, which is not directly applicable to <use> tags.
-                    // This step assumes there's some unconventional method to access related shadow content
-                    var shadowContent;
+                // Assuming we're looking for a shadow DOM inside or related to the <use> tag, which is unconventional
+                // var useElement = svgElement.querySelector('use');
 
-                    // Hypothetically accessing shadow DOM or related content. This part needs adjustment based on actual structure or intent
-                    // As <use> tags don't host shadow DOMs, this is speculative and might represent a different approach in practice
-                    if (svgElement.shadowRoot) {
-                        shadowContent = svgElement.shadowRoot.querySelector('some-element').textContent;
-                    } else {
-                        // Fallback or alternative method to access intended content, as direct shadow DOM access on <use> is not standard
-                        shadowContent = 'Fallback or alternative content access method needed';
-                    }
+                // Placeholder for accessing the shadow DOM, which is not directly applicable to <use> tags.
+                // This step assumes there's some unconventional method to access related shadow content
+                var shadowContent;
 
-                    return shadowContent;
-                """
-                # Execute the script with the link_element as the argument
-                timestamp = driver.execute_script(js_script, link_element)
-                print("TIMESTAMP: " + str(timestamp))
-            elif not isGroup:
-                aria_label_value = link_element.get_attribute("aria-label")
-                timestamp = (
-                    parse(aria_label_value).isoformat()
-                    if len(aria_label_value) > 5
-                    else convert_to_iso(
-                        aria_label_value
-                    )
+                // Hypothetically accessing shadow DOM or related content. This part needs adjustment based on actual structure or intent
+                // As <use> tags don't host shadow DOMs, this is speculative and might represent a different approach in practice
+                if (svgElement.shadowRoot) {
+                    shadowContent = svgElement.shadowRoot.querySelector('some-element').textContent;
+                } else {
+                    // Fallback or alternative method to access intended content, as direct shadow DOM access on <use> is not standard
+                    shadowContent = 'Fallback or alternative content access method needed';
+                }
+
+                return shadowContent;
+            """
+            # Execute the script with the link_element as the argument
+            timestamp = driver.execute_script(js_script, link_element)
+            print("TIMESTAMP: " + str(timestamp))
+        elif not isGroup:
+            aria_label_value = link_element.get_attribute("aria-label")
+            timestamp = (
+                parse(aria_label_value).isoformat()
+                if len(aria_label_value) > 5
+                else convert_to_iso(
+                    aria_label_value
                 )
-            return timestamp
+            )
+        return timestamp
 
     except TypeError:
         timestamp = ""
@@ -352,19 +284,12 @@ def find_video_url(post):
     return srcs
 
 
-def find_post_image_url(post, layout):
+def find_post_image_url(post):
     """finds all image of the facebook post using selenium's webdriver's method"""
     try:
-        if layout == "old":
-            # find all img tag that looks like <img class="scaledImageFitWidth img" src=""> div > img[referrerpolicy]
-            images = post.find_elements(
-                By.CSS_SELECTOR, "img.scaledImageFitWidth.img"
-            )
-            # extract src attribute from all the img tag,store it in list
-        elif layout == "new":
-            images = post.find_elements(
-                By.CSS_SELECTOR, "div > img[referrerpolicy]"
-            )
+        images = post.find_elements(
+            By.CSS_SELECTOR, "div > img[referrerpolicy]"
+        )
         sources = (
             [image.get_attribute("src") for image in images]
             if len(images) > 0
@@ -380,20 +305,13 @@ def find_post_image_url(post, layout):
     return sources
 
 
-def find_all_posts(driver, layout, isGroup):
+def find_all_posts(driver, isGroup):
     """finds all posts of the facebook page using selenium's webdriver's method"""
     try:
-        # find all posts that looks like <div class="userContentWrapper"> </div>
-        if layout == "old":
-            all_posts = driver.find_elements(
-                By.CSS_SELECTOR, "div.userContentWrapper"
-            )
-        elif layout == "new":
-            # all_posts = driver.find_elements(By.CSS_SELECTOR, "div[role='feed'] > div")
-            # different query selectors depending on if we are scraping a FB page or group
-            all_posts = driver.find_elements(By.CSS_SELECTOR,
-                                             "div[role='feed'] > div" if isGroup else 'div[role="article"]')
-        return all_posts
+        # all_posts = driver.find_elements(By.CSS_SELECTOR, "div[role='feed'] > div")
+        # different query selectors depending on if we are scraping a FB page or group
+        return driver.find_elements(By.CSS_SELECTOR,
+                                    "div[role='feed'] > div" if isGroup else 'div[role="article"]')
     except NoSuchElementException:
         logger.error("Cannot find any posts! Exiting!")
         # if this fails to find posts that means, code cannot move forward, as no post is found
@@ -405,19 +323,14 @@ def find_all_posts(driver, layout, isGroup):
         sys.exit(1)
 
 
-def find_post_name(driverOrPost, layout):
+def find_post_name(driverOrPost):
     """finds name of the facebook page or post using selenium's webdriver's method"""
     # Attempt to print the outer HTML of the driverOrPost for debugging
 
     try:
-        if layout == "old":
-            name = driverOrPost.find_element(By.CSS_SELECTOR, "a._64-f").get_attribute(
-                "textContent"
-            )
-        elif layout == "new":
-            name = driverOrPost.find_element(By.TAG_NAME, "strong").get_attribute(
-                "textContent"
-            )
+        name = driverOrPost.find_element(By.TAG_NAME, "strong").get_attribute(
+            "textContent"
+        )
 
         profile_url = driverOrPost.find_element(
             By.CSS_SELECTOR, "span > a[attributionsrc]"
@@ -448,12 +361,9 @@ def detect_ui(driver):
         sys.exit(1)
 
 
-def find_reaction(layout, reactions_all):
+def find_reaction(reactions_all):
     try:
-        if layout == "old":
-            return reactions_all.find_elements(By.TAG_NAME, "a")
-        elif layout == "new":
-            return reactions_all.find_elements(By.TAG_NAME, "div")
+        return reactions_all.find_elements(By.TAG_NAME, "div")
 
     except Exception as ex:
         logger.exception("Error at find_reaction : {}".format(ex))
