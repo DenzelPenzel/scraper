@@ -1,0 +1,7 @@
+.env
+build/
+dist/
+data/
+scraper.egg-info/
+venv/*
+.idea
