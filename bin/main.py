@@ -4,6 +4,8 @@ import json
 import logging
 import asyncio
 import aiohttp
+import time
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -39,6 +41,8 @@ async def main():
     headless = True
     sem = asyncio.Semaphore(max_concurrent_requests)
 
+    start_at = time.time()
+
     data = scraper.FbScraper(
         page_or_group_name=group_name,
         posts_count=posts_count,
@@ -51,18 +55,21 @@ async def main():
         timeout=timeout
     ).scrap_to_json()
 
+    logger.info(f"Script running time {time.time() - start_at}")
+    json_data = json.loads(data)
+    logger.info(f"Parsed {len(json_data)} posts, saving phase...")
+
     # save parsed data to csv file
-    scraper.save_csv(data)
+    scraper.save_csv(json_data)
 
     async with aiohttp.ClientSession() as session:
-        json_data = json.loads(data)
         tasks = [
             asyncio.create_task(bound_send_post(sem, session, json_data[key]))
             for key in json_data
         ]
         await asyncio.gather(*tasks)
 
-    print("Done!")
+    logger.info("Done!")
 
 
 if __name__ == "__main__":

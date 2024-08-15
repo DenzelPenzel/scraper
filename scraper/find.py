@@ -1,4 +1,3 @@
-import datetime
 import logging
 import re
 import sys
@@ -10,10 +9,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from scraper.utils import extract_numbers, exists_in_list, convert_time, extract_content, count_reaction, \
-    extract_id_from_link, value_to_float, find_reaction_by_text, convert_to_iso, close_driver, close_error_popup, \
-    scroll_down_half, close_modern_layout_signup_modal, scroll_down, close_popup, wait_for_element_to_appear, \
-    click_see_more, close_cookie_consent_modern_layout, data_path
+from scraper.utils import extract_id_from_link, convert_to_iso, close_driver, click_see_more
 
 logger = logging.getLogger(__name__)
 format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")

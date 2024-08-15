@@ -67,6 +67,7 @@ class FbScraper:
         self.isGroup = isGroup
         self.username = username
         self.password = password
+        self.count = 0
         self.data_dct = {}
         self.visited_posts = set()
         root_path = utils.data_path()
@@ -107,10 +108,19 @@ class FbScraper:
         self._handle_popup()
 
         while len(self.data_dct) < self.posts_count and elements_have_loaded:
+            found_posts = 0
+            while found_posts < self.posts_count:
+                self._handle_popup()
+                posts = find.find_all_posts(self.driver, self.isGroup)
+                found_posts = len(posts)
+                start_at = self.sleep(start_at)
+                utils.scroll_down(self.driver)
+                logger.info(f"Found {found_posts} posts")
+
             self._handle_popup()
             posts = find.find_all_posts(self.driver, self.isGroup)
 
-            logger.info("Found posts len: {}".format(len(posts)))
+            logger.info(f"Processed {len(self.data_dct)} posts")
 
             for post in posts:
                 try:
@@ -138,20 +148,28 @@ class FbScraper:
                         "create_at": create_at,
                     }
                 except Exception as ex:
-                    logger.exception("Error at find_elements method : {}".format(ex))
+                    logger.exception(f"Processing post error : {ex}")
 
-            if self.reach_timeout(start_at, time.time()):
-                logger.setLevel(logging.INFO)
-                logger.info('Timeout...')
-                time.sleep(10.0)
-                start_at = time.time()
-
+            start_at = self.sleep(start_at)
             utils.scroll_down(self.driver)
 
         for key, item in self.data_dct.items():
-            self.driver.get(item['profile_url'])
-            images = find.find_profile_image(self.driver, item['name'])
-            self.data_dct[key]['profile_images'] = images
+            try:
+                self.driver.get(item['profile_url'])
+                images = find.find_profile_image(self.driver, item['name'])
+                self.data_dct[key]['profile_images'] = images
+                time.sleep(3.0)
+            except Exception as ex:
+                logger.info(f"Failed to parse user profile: {item['profile_url']}, error: {ex}")
 
         utils.close_driver(self.driver)
         return json.dumps(self.data_dct, ensure_ascii=False)
+
+    def sleep(self, start_at):
+        if self.reach_timeout(start_at, time.time()):
+            logger.setLevel(logging.INFO)
+            logger.info('Timeout...')
+            time.sleep(60.0)
+            return time.time()
+        else:
+            return start_at

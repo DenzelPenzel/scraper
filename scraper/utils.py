@@ -1,7 +1,6 @@
 import csv
 import json
 import logging
-import sys
 import time
 import re
 import os
@@ -13,8 +12,7 @@ from datetime import datetime
 from datetime import datetime as dt
 from datetime import timedelta
 
-from selenium.common.exceptions import (NoSuchElementException,
-                                        WebDriverException)
+from selenium.common.exceptions import NoSuchElementException, WebDriverException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
@@ -341,7 +339,6 @@ def parse_csv(file_path: str) -> Set[str]:
 
 def save_csv(data):
     try:
-        data = json.loads(data)
         root_path = data_path()
         file_path = join(root_path, "posts.csv")
         fieldnames = ['id', 'name', 'profile_url', 'content', 'post_url', 'group_images', 'profile_images', 'create_at']

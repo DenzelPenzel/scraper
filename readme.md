@@ -1,0 +1,3 @@
+### TODO
+- Ignore Anonymous participant
+- 
