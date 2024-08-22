@@ -135,9 +135,11 @@ class FbScraper:
                     name, profile_url = find.find_post_name(post)
                     content = find.find_post_content(post, self.driver)
                     group_images = find.find_post_image_url(post)
-
                     create_at = find.find_post_time(
                         post, link_element, self.driver, self.isGroup)
+
+                    if not name or name == 'Anonymous participant' or not content or not group_images:
+                        continue
 
                     self.data_dct[key] = {
                         "name": name,

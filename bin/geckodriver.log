@@ -6738,3 +6738,1637 @@ Read port: 52735
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDZ_4/yF/l/en_US/lUPNEJq2mpY.js?_nc_x=Ij3Wp8lg5Kz, line 260: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1723756264794	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723761785242	geckodriver	INFO	Listening on 127.0.0.1:60043
+1723761785916	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilewFEBYs"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723761786069	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723761786210	Marionette	INFO	Listening on port 60052
+WebDriver BiDi listening on ws://127.0.0.1:60044
+Read port: 60052
+1723761786327	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:60045","sslProxy":"[::ffff:7f00:1]:60045"}
+1723761786327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDZ_4/yF/l/en_US/lUPNEJq2mpY.js?_nc_x=Ij3Wp8lg5Kz, line 260: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723761816672	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723761986955	geckodriver	INFO	Listening on 127.0.0.1:60388
+1723761987589	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofile9L7w3R"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723761987732	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723761987866	Marionette	INFO	Listening on port 60397
+WebDriver BiDi listening on ws://127.0.0.1:60389
+Read port: 60397
+1723761987976	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:60390","sslProxy":"[::ffff:7f00:1]:60390"}
+1723761987976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Exiting due to channel error.
+Exiting due to channel error.
+1723793002108	geckodriver	INFO	Listening on 127.0.0.1:61007
+1723793002648	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileOufs9S"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723793002795	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723793002930	Marionette	INFO	Listening on port 61016
+WebDriver BiDi listening on ws://127.0.0.1:61008
+Read port: 61016
+1723793003041	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:61009","sslProxy":"[::ffff:7f00:1]:61009"}
+1723793003041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDZ_4/yF/l/en_US/lUPNEJq2mpY.js?_nc_x=Ij3Wp8lg5Kz, line 260: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723793032805	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723793248074	geckodriver	INFO	Listening on 127.0.0.1:61434
+1723793248714	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilexRITqE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723793248861	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723793249001	Marionette	INFO	Listening on port 61447
+WebDriver BiDi listening on ws://127.0.0.1:61435
+Read port: 61447
+1723793249108	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:61436","sslProxy":"[::ffff:7f00:1]:61436"}
+1723793249108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDZ_4/yF/l/en_US/lUPNEJq2mpY.js?_nc_x=Ij3Wp8lg5Kz, line 260: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723793281439	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723793490973	geckodriver	INFO	Listening on 127.0.0.1:61843
+1723793491586	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileUXsaVQ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723793491752	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723793491896	Marionette	INFO	Listening on port 61852
+Read port: 61852
+WebDriver BiDi listening on ws://127.0.0.1:61844
+1723793491918	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:61845","sslProxy":"[::ffff:7f00:1]:61845"}
+1723793491918	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDZ_4/yF/l/en_US/lUPNEJq2mpY.js?_nc_x=Ij3Wp8lg5Kz, line 260: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723793496765	geckodriver	INFO	Listening on 127.0.0.1:61945
+1723793497383	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileZzeX4l"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723793497526	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723793497651	Marionette	INFO	Listening on port 61954
+WebDriver BiDi listening on ws://127.0.0.1:61946
+Read port: 61954
+1723793497788	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:61947","sslProxy":"[::ffff:7f00:1]:61947"}
+1723793497788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yO/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723793527546	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723793552600	geckodriver	INFO	Listening on 127.0.0.1:62137
+1723793553241	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileRkCVeO"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723793553402	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723793553525	Marionette	INFO	Listening on port 62147
+WebDriver BiDi listening on ws://127.0.0.1:62138
+Read port: 62147
+1723793553632	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:62139","sslProxy":"[::ffff:7f00:1]:62139"}
+1723793553632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yA/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723793583429	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723794276522	geckodriver	INFO	Listening on 127.0.0.1:63243
+1723794278594	geckodriver	INFO	Listening on 127.0.0.1:63259
+1723794279257	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileoxkI5c"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723794279411	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723794279545	Marionette	INFO	Listening on port 63268
+WebDriver BiDi listening on ws://127.0.0.1:63260
+Read port: 63268
+1723794279653	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63261","sslProxy":"[::ffff:7f00:1]:63261"}
+1723794279653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yO/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723794309416	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723794343984	geckodriver	INFO	Listening on 127.0.0.1:63460
+1723794344618	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileQPQCdc"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723794344759	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723794344885	Marionette	INFO	Listening on port 63469
+WebDriver BiDi listening on ws://127.0.0.1:63461
+Read port: 63469
+1723794344991	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63462","sslProxy":"[::ffff:7f00:1]:63462"}
+1723794344991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yO/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723794374836	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723794387943	geckodriver	INFO	Listening on 127.0.0.1:63650
+1723794388581	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileSThcUJ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723794388725	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723794388864	Marionette	INFO	Listening on port 63659
+WebDriver BiDi listening on ws://127.0.0.1:63651
+Read port: 63659
+1723794388973	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63652","sslProxy":"[::ffff:7f00:1]:63652"}
+1723794388973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723794398254	geckodriver	INFO	Listening on 127.0.0.1:63737
+1723794398894	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilek3d4MH"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723794399034	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723794399169	Marionette	INFO	Listening on port 63749
+WebDriver BiDi listening on ws://127.0.0.1:63738
+Read port: 63749
+1723794399280	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63739","sslProxy":"[::ffff:7f00:1]:63739"}
+1723794399280	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yO/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723794429095	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723794578228	geckodriver	INFO	Listening on 127.0.0.1:64080
+1723794578864	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofile8Cmhqj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723794579011	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723794579149	Marionette	INFO	Listening on port 64092
+WebDriver BiDi listening on ws://127.0.0.1:64081
+Read port: 64092
+1723794579257	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:64082","sslProxy":"[::ffff:7f00:1]:64082"}
+1723794579257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yO/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723794609074	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3icwZ4/yr/l/rt/rbxlemrCzjlu36czApZUll-n_dd9VWZFzxfsrcI7e_Q_.js?_nc_x=C6p1p3PWgRc, line 294: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+1723795332937	Marionette	INFO	Stopped listening on port 64092
+1723796174796	geckodriver	INFO	Listening on 127.0.0.1:51152
+1723796175476	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilezGeX3y"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723796175682	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723796175817	Marionette	INFO	Listening on port 51161
+WebDriver BiDi listening on ws://127.0.0.1:51153
+Read port: 51161
+1723796175926	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:51154","sslProxy":"[::ffff:7f00:1]:51154"}
+1723796175926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yA/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723796205801	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723796942164	Marionette	INFO	Stopped listening on port 51161
+1723801431984	geckodriver	INFO	Listening on 127.0.0.1:54185
+1723801432620	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileTIdWxo"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723801432769	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723801432907	Marionette	INFO	Listening on port 54194
+WebDriver BiDi listening on ws://127.0.0.1:54186
+Read port: 54194
+1723801433018	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:54187","sslProxy":"[::ffff:7f00:1]:54187"}
+1723801433018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yO/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723801462784	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723801560467	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723801655228	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3icwZ4/yr/l/rt/rbxlemrCzjlu36czApZUll-n_dd9VWZFzxfsrcI7e_Q_.js?_nc_x=C6p1p3PWgRc, line 294: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz, line 329: Script terminated by timeout at:
+d.isHidden@https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz:329:802
+@https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz:329:1066
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz:69:10432
+d@https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz:324:2086
+
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz, line 324: Script terminated by timeout at:
+d@https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz:324:1985
+
+1723802287258	Marionette	INFO	Stopped listening on port 54194
+1723804794424	geckodriver	INFO	Listening on 127.0.0.1:59954
+1723804795068	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileH1S5Q2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723804795235	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723804795420	Marionette	INFO	Listening on port 59967
+WebDriver BiDi listening on ws://127.0.0.1:59955
+Read port: 59967
+1723804795547	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:59956","sslProxy":"[::ffff:7f00:1]:59956"}
+1723804795547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yO/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723804826336	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3icwZ4/yr/l/rt/rbxlemrCzjlu36czApZUll-n_dd9VWZFzxfsrcI7e_Q_.js?_nc_x=C6p1p3PWgRc, line 294: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+1723805614273	Marionette	INFO	Stopped listening on port 59967
+1723817336254	geckodriver	INFO	Listening on 127.0.0.1:64235
+1723817336860	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileF7shLp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723817337005	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723817337153	Marionette	INFO	Listening on port 64244
+WebDriver BiDi listening on ws://127.0.0.1:64236
+Read port: 64244
+1723817337262	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:64237","sslProxy":"[::ffff:7f00:1]:64237"}
+1723817337262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yA/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723817367140	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3icwZ4/yr/l/rt/rbxlemrCzjlu36czApZUll-n_dd9VWZFzxfsrcI7e_Q_.js?_nc_x=C6p1p3PWgRc, line 294: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz, line 324: Script terminated by timeout at:
+w@https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz:324:483
+d@https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz:324:1683
+
+1723818189360	Marionette	INFO	Stopped listening on port 64244
+1723826625736	geckodriver	INFO	Listening on 127.0.0.1:57282
+1723826626551	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileFjBN0U"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723826626754	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723826626941	Marionette	INFO	Listening on port 57295
+WebDriver BiDi listening on ws://127.0.0.1:57283
+Read port: 57295
+1723826627079	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:57284","sslProxy":"[::ffff:7f00:1]:57284"}
+1723826627079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yO/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723826658174	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723828192870	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: uncaught exception: Object
+1723829394218	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1723829600405	Marionette	INFO	Stopped listening on port 57295
+1723829934000	geckodriver	INFO	Listening on 127.0.0.1:60609
+1723829934638	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileZVTIC2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723829934789	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723829934924	Marionette	INFO	Listening on port 60624
+WebDriver BiDi listening on ws://127.0.0.1:60610
+Read port: 60624
+1723829935034	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:60611","sslProxy":"[::ffff:7f00:1]:60611"}
+1723829935034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iCIK4/yO/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPU9teV9IEUgtlA4Ry2dUk3inn8ReVJO9XfpqIdl1pubB2-s_PhnULa-6x-V6O_HYCpuPQmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1723829965492	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3icwZ4/yu/l/rt/8mnSQP8IaF3u36czApZUllUOxCq9XySjnxfsrcI7e_Q_.js?_nc_x=C6p1p3PWgRc, line 295: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1723830828303	Marionette	INFO	Stopped listening on port 60624
+1723885990154	geckodriver	INFO	Listening on 127.0.0.1:56563
+1723885990698	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileVIab6n"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723885990856	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723885991002	Marionette	INFO	Listening on port 56581
+WebDriver BiDi listening on ws://127.0.0.1:56564
+Read port: 56581
+1723885991106	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:56570","sslProxy":"[::ffff:7f00:1]:56570"}
+1723885991106	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDZ_4/yF/l/en_US/lUPNEJq2mpY.js?_nc_x=Ij3Wp8lg5Kz, line 260: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723886021614	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723888728075	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723889033125	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723890541269	geckodriver	INFO	Listening on 127.0.0.1:64091
+1723890542101	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileo5Pdlr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723890542274	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723890542458	Marionette	INFO	Listening on port 64100
+WebDriver BiDi listening on ws://127.0.0.1:64092
+Read port: 64100
+1723890542588	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:64093","sslProxy":"[::ffff:7f00:1]:64093"}
+1723890542588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDZ_4/yF/l/en_US/lUPNEJq2mpY.js?_nc_x=Ij3Wp8lg5Kz, line 260: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723890572562	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723895110291	geckodriver	INFO	Listening on 127.0.0.1:55013
+1723895111022	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofile7nBEX7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723895111201	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723895111381	Marionette	INFO	Listening on port 55034
+WebDriver BiDi listening on ws://127.0.0.1:55014
+Read port: 55034
+1723895111507	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:55015","sslProxy":"[::ffff:7f00:1]:55015"}
+1723895111507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDZ_4/yF/l/en_US/lUPNEJq2mpY.js?_nc_x=Ij3Wp8lg5Kz, line 260: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723895134746	geckodriver	INFO	Listening on 127.0.0.1:55159
+1723895135384	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileDvizN4"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723895135531	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723895135661	Marionette	INFO	Listening on port 55169
+WebDriver BiDi listening on ws://127.0.0.1:55160
+Read port: 55169
+1723895135772	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:55161","sslProxy":"[::ffff:7f00:1]:55161"}
+1723895135772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDZ_4/yF/l/en_US/lUPNEJq2mpY.js?_nc_x=Ij3Wp8lg5Kz, line 260: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723895165554	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723897992944	geckodriver	INFO	Listening on 127.0.0.1:58319
+1723897993647	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilevceYh8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723897993833	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723897994019	Marionette	INFO	Listening on port 58332
+WebDriver BiDi listening on ws://127.0.0.1:58320
+Read port: 58332
+1723897994157	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:58321","sslProxy":"[::ffff:7f00:1]:58321"}
+1723897994157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDZ_4/yF/l/en_US/lUPNEJq2mpY.js?_nc_x=Ij3Wp8lg5Kz, line 260: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: aWindow is null
+1723898007612	geckodriver	INFO	Listening on 127.0.0.1:58424
+1723898008244	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileD5iJLs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723898008392	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723898008543	Marionette	INFO	Listening on port 58435
+WebDriver BiDi listening on ws://127.0.0.1:58425
+Read port: 58435
+1723898008645	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:58426","sslProxy":"[::ffff:7f00:1]:58426"}
+1723898008645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3imNm4/y2/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPUw7SdlH6Y5vQ9teV9IEUgtln8ReVJO9XfpqIdl1pubB2-s_PhnULa-6xp1xP-aGfiJ3QmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723898024976	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723898038433	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723898206639	Marionette	INFO	Stopped listening on port 58435
+1723898831751	geckodriver	INFO	Listening on 127.0.0.1:60145
+1723898832408	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofile4jOwQD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723898832608	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723898832758	Marionette	INFO	Listening on port 60164
+WebDriver BiDi listening on ws://127.0.0.1:60146
+Read port: 60164
+1723898832887	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:60147","sslProxy":"[::ffff:7f00:1]:60147"}
+1723898832887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1723898863103	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723898991967	geckodriver	INFO	Listening on 127.0.0.1:60550
+1723898992598	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofile6nSWch"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723898992753	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723898992924	Marionette	INFO	Listening on port 60563
+WebDriver BiDi listening on ws://127.0.0.1:60551
+Read port: 60563
+1723898993044	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:60552","sslProxy":"[::ffff:7f00:1]:60552"}
+1723898993044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3imNm4/y2/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPUw7SdlH6Y5vQ9teV9IEUgtln8ReVJO9XfpqIdl1pubB2-s_PhnULa-6xp1xP-aGfiJ3QmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723899022780	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723899174271	Marionette	INFO	Stopped listening on port 60563
+1723900165356	geckodriver	INFO	Listening on 127.0.0.1:62490
+1723900165994	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileLHvAUg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723900166143	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723900166273	Marionette	INFO	Listening on port 62500
+WebDriver BiDi listening on ws://127.0.0.1:62491
+Read port: 62500
+1723900166378	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:62492","sslProxy":"[::ffff:7f00:1]:62492"}
+1723900166378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3imNm4/y2/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPUw7SdlH6Y5vQ9teV9IEUgtln8ReVJO9XfpqIdl1pubB2-s_PhnULa-6xp1xP-aGfiJ3QmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1723900194970	geckodriver	INFO	Listening on 127.0.0.1:62658
+1723900195604	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileT8pDfF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723900195747	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723900195872	Marionette	INFO	Listening on port 62667
+WebDriver BiDi listening on ws://127.0.0.1:62659
+Read port: 62667
+1723900195979	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:62660","sslProxy":"[::ffff:7f00:1]:62660"}
+1723900195979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i-y-4/yO/l/rt/Nje-k0S4H-so3_jDdOQVPUw7SdlH6Y5vQ9teV9IEUgtln8ReVJO9XfpqIdl1pubB2-s_PhnULa-6xp1xP-aGfiJ3QmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucK.js?_nc_x=C6p1p3PWgRc, line 442: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723900226361	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723900431109	Marionette	INFO	Stopped listening on port 62667
+1723901843632	geckodriver	INFO	Listening on 127.0.0.1:49264
+1723901844325	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofile7jUCIN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723901844476	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723901844614	Marionette	INFO	Listening on port 49277
+WebDriver BiDi listening on ws://127.0.0.1:49265
+Read port: 49277
+1723901844721	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:49266","sslProxy":"[::ffff:7f00:1]:49266"}
+1723901844721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3imNm4/y2/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPUw7SdlH6Y5vQ9teV9IEUgtln8ReVJO9XfpqIdl1pubB2-s_PhnULa-6xp1xP-aGfiJ3QmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723901874657	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3icwZ4/yM/l/rt/ezpdpEhVV7ku36czApZUllhgxpnW4o7RcxfsrcI7e_Q_.js?_nc_x=C6p1p3PWgRc, line 295: InvalidStateError: IDBTransaction.objectStore: Transaction is already committing or done.
+1723902089910	Marionette	INFO	Stopped listening on port 49277
+1723902404042	Marionette	INFO	Stopped listening on port 58332
+1723909150186	geckodriver	INFO	Listening on 127.0.0.1:61588
+1723909150875	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileK49xX9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723909151020	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723909151157	Marionette	INFO	Listening on port 61605
+WebDriver BiDi listening on ws://127.0.0.1:61589
+Read port: 61605
+1723909151267	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:61590","sslProxy":"[::ffff:7f00:1]:61590"}
+1723909151267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3imNm4/y2/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPUw7SdlH6Y5vQ9teV9IEUgtln8ReVJO9XfpqIdl1pubB2-s_PhnULa-6xp1xP-aGfiJ3QmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723909181082	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723909364547	Marionette	INFO	Stopped listening on port 61605
+1723926017642	geckodriver	INFO	Listening on 127.0.0.1:52192
+1723926018368	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileySjhqU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723926018556	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723926018712	Marionette	INFO	Listening on port 52205
+WebDriver BiDi listening on ws://127.0.0.1:52193
+Read port: 52205
+1723926018926	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:52194","sslProxy":"[::ffff:7f00:1]:52194"}
+1723926018926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3imNm4/y2/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPUw7SdlH6Y5vQ9teV9IEUgtln8ReVJO9XfpqIdl1pubB2-s_PhnULa-6xp1xP-aGfiJ3QmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL8YVzPqbJOsC.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723926048699	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz, line 324: Script terminated by timeout at:
+d@https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/1e3ZG4ATXSb.js?_nc_x=Ij3Wp8lg5Kz:324:1985
+
+1723926225962	Marionette	INFO	Stopped listening on port 52205
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/6nk4FEI79mm.js?_nc_x=C6p1p3PWgRc, line 222: Script terminated by timeout at:
+K@https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/6nk4FEI79mm.js?_nc_x=C6p1p3PWgRc:222:1744
+
+1723977825736	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723978128310	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723978755166	geckodriver	INFO	Listening on 127.0.0.1:53233
+1723978756088	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilevu9kyh"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1723978756305	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1723978756503	Marionette	INFO	Listening on port 53254
+WebDriver BiDi listening on ws://127.0.0.1:53234
+Read port: 53254
+1723978756641	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:53235","sslProxy":"[::ffff:7f00:1]:53235"}
+1723978756641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Xy-IGDyaZYC.js?_nc_x=Ij3Wp8lg5Kz, line 42: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3imNm4/y7/l/rt/xWoUh2l7l9X4soJRxc9PYRT-OfpPqzNO6Nje-k0S4H-so3_jDdOQVPUw7SdlH6Y5vQ9teV9IEUgtln8ReVJO9XfpqIdl1pubB2-s_PhnULa-6xp1xP-aGfiJ3QmN_G18BztQwSdIR9O9levGDab0RHqe96EWby7rX9ucKn-2IVtxV0b3GvhHLuuOATL8YVzPqbJOsCghQE1nORcYz.js?_nc_x=C6p1p3PWgRc, line 684: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1723978786318	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1723978983510	Marionette	INFO	Stopped listening on port 53254
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPzV4/yd/l/rt/Xh1uVTAKE4uwGFm8t01VBrTdStGrJ2cRDV7gT7j6hMNBMFFxwN_kKT5DeKRw6lofW0kTL2eRzq9SVwjwoN3pFlCkSYnewqGHOkszeILc9xlYZtYx8OrHSJcy53qO4fv5LPFTGHPnAqQnryL_VHjUpMwBwAmc27cSQQ1Nw4ueFSmBKpJwSuFIVN94h9CBmiengslhldfVU8qEwbLE8RaZdegoFzox7Xo5rjJBQXXBEosEpwQly5zbA2ffQ1JLT7ki0NFKTyTF5L-r4qatg6q8sgQbw_5_Kf6vVhLfGuByFlh6jit1ncqcA5-01rpNAYmXshnFa85pdx.js?_nc_x=C6p1p3PWgRc, line 180: Script terminated by timeout at:
+d@https://static.xx.fbcdn.net/rsrc.php/v3iPzV4/yd/l/rt/Xh1uVTAKE4uwGFm8t01VBrTdStGrJ2cRDV7gT7j6hMNBMFFxwN_kKT5DeKRw6lofW0kTL2eRzq9SVwjwoN3pFlCkSYnewqGHOkszeILc9xlYZtYx8OrHSJcy53qO4fv5LPFTGHPnAqQnryL_VHjUpMwBwAmc27cSQQ1Nw4ueFSmBKpJwSuFIVN94h9CBmiengslhldfVU8qEwbLE8RaZdegoFzox7Xo5rjJBQXXBEosEpwQly5zbA2ffQ1JLT7ki0NFKTyTF5L-r4qatg6q8sgQbw_5_Kf6vVhLfGuByFlh6jit1ncqcA5-01rpNAYmXshnFa85pdx.js?_nc_x=C6p1p3PWgRc:180:8341
+
+1724011755153	geckodriver	INFO	Listening on 127.0.0.1:54705
+1724011755977	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileVFYAg0"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724011756162	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1724011756353	Marionette	INFO	Listening on port 54723
+WebDriver BiDi listening on ws://127.0.0.1:54706
+Read port: 54723
+1724011756477	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:54711","sslProxy":"[::ffff:7f00:1]:54711"}
+1724011756477	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new Error("Server error 502 Bad Gateway", "resource://services-settings/Utils.sys.mjs", 397))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDZ_4/yF/l/en_US/lUPNEJq2mpY.js?_nc_x=Ij3Wp8lg5Kz, line 260: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724011786383	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724064232209	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724064539157	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724234301789	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724234604947	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724234969791	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1724326713500	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.

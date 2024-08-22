@@ -36,7 +36,7 @@ async def main():
     username = os.getenv('USERNAME')
     password = os.getenv('PASS')
     group_name = "UTrippers"
-    posts_count = 100
+    posts_count = 20
     timeout = 600
     headless = True
     sem = asyncio.Semaphore(max_concurrent_requests)
