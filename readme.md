@@ -1,3 +1,7 @@
+### WIP
+
 ### TODO
-- Ignore Anonymous participant
-- 
+- Gracefully shutdown
+- Progress tracking 
+- Analytics
+- Recovery

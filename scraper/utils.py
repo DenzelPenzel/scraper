@@ -1,5 +1,4 @@
 import csv
-import json
 import logging
 import time
 import re
@@ -28,54 +27,8 @@ logger.addHandler(ch)
 _data_path = None
 
 
-def extract_numbers(string):
-    """expects string and returns numbers from them as integer type,
-    e.g => input = '54454 comment', than output => 54454
-    """
-    try:
-        # return string.split(" ")[0]
-        return re.findall("\d+", string)[0]
-    except IndexError:
-        return 0
-
-
-def exists_in_list(li, word):
-    """expects list and a element, returns all the occurence of element in the list.
-    e.g input => li = ['sajid','sajid','sajid','d','s'] with given word = 'sajid',
-    output => ['sajid','sajid','sajid'] """
-    return [substring for substring in li if word in substring]
-
-
-def convert_time(unix_timestamp):
-    try:
-        return dt.utcfromtimestamp(float(unix_timestamp)).isoformat()
-    except Exception as ex:
-        logger.exception('Error at convert_time : {}'.format(ex))
-
-
-def extract_content(content):
-    """returns the text content of selenium element, else if content is string than returns a empty string"""
-    if type(content) is not str:
-        all_para = content.find_elements(By.TAG_NAME, "p")
-        paragraph = ''
-        for para in all_para:
-            paragraph += para.get_attribute("textContent")
-            content = paragraph
-    else:
-        content = ""
-    return content
-
-
-def count_reaction(dictionary):
-    """expects a dictionary and returns sum of all values of dictionary.
-    e.g =>
-    input dictionary = {"s":1,"d":34},
-    output=> 35"""
-    return sum(dictionary.values())
-
-
 def extract_id_from_link(link):
-    """expects the post's URL as a argument, and extracts out post_id from that URL"""
+    # extracts out post_id from that URL
     try:
         status = "NA"
         # if url pattern container "/posts"
@@ -103,44 +56,11 @@ def extract_id_from_link(link):
             'Error at extract_id_from_link : {}'.format(ex))
 
 
-def value_to_float(x):
-    try:
-        x = float(x)
-        return x
-    except:
-        pass
-    x = x.lower()
-    if 'k' in x:
-        if len(x) > 1:
-            return float(x.replace('k', '')) * 1000
-        return 1000
-    if 'm' in x:
-        if len(x) > 1:
-            return float(x.replace('m', '')) * 1000000
-        return 1000000
-    if 'm' in x:
-        return float(x.replace('m', '')) * 1000000000
-    return 0
-
-
-def find_reaction_by_text(l, string):
-    reaction = [substring for substring in l if string in substring]
-    if len(reaction) == 0:
-        return '0'
-    reaction = re.findall(
-        r"(\d+(?:\.\d+)?)([MmBbKk])?", reaction[0])
-    if len(reaction) > 0:
-        return ''.join(reaction[0])  # list of tuple, return first tuple's first result
-    return '0'
-
-
 def convert_to_iso(t):
     past_date = "Failed to fetch!"
     if 'h' in t.lower() or "hr" in t.lower() or "hrs" in t.lower():
         hours_to_subract = re.sub("\D", '', t)
-        # print(f"{hours_to_subract} subtracting hours\n")
         past_date = datetime.today() - timedelta(hours=int(hours_to_subract))
-        # print(past_date.timestamp())
         return past_date.isoformat()
 
     if 'm' in t.lower() or "min" in t.lower() or "mins" in t.lower():
@@ -155,16 +75,12 @@ def convert_to_iso(t):
 
     elif 'd' in t.lower() or "ds" in t.lower():
         days_to_subtract = re.sub("\D", '', t)
-        # print(f"{days_to_subtract} subtracting days\n")
         past_date = datetime.today() - timedelta(days=int(days_to_subtract))
-        # print(past_date.timestamp())
         return past_date.isoformat()
-    # print(f"time is : {t}")
     return past_date
 
 
 def close_driver(driver):
-    """expects driver's instance, closes the driver"""
     try:
         driver.close()
         driver.quit()
@@ -173,9 +89,8 @@ def close_driver(driver):
 
 
 def close_error_popup(driver):
-    '''expects driver's instance as a argument and checks if error shows up
-    like "We could not process your request. Please try again later" ,
-    than click on close button to skip that popup.'''
+    # checks if error shows up
+    # like "We could not process your request. Please try again later" than click on close button to skip that popup
     try:
         WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
             (By.CSS_SELECTOR, 'a.layerCancel')))  # wait for popup to show
@@ -220,7 +135,7 @@ def close_modern_layout_signup_modal(driver):
 
 
 def scroll_down(driver):
-    """expects driver's instance as a argument, and it scrolls down page to the most bottom till the height"""
+    # Scrolls down page to the most bottom till the height
     try:
         body = driver.find_element(By.CSS_SELECTOR, "body")
         for _ in range(randint(1, 3)):
@@ -237,7 +152,7 @@ def scroll_down(driver):
 
 
 def close_popup(driver):
-    """expects driver's instance and closes modal that ask for login, by clicking "Not Now" button """
+    # closes modal that ask for login, by clicking "Not Now" button
     try:
         # croll_down_half(driver)  #try to scroll
         # wait for popup to show
@@ -257,9 +172,7 @@ def close_popup(driver):
 
 
 def wait_for_element_to_appear(driver, timeout):
-    """expects driver's instance, wait for posts to show.
-    post's CSS class name is userContentWrapper
-    """
+    # wait for posts to show, post's CSS class name is userContentWrapper
     try:
         WebDriverWait(driver, timeout).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "[aria-posinset]")))
@@ -280,7 +193,7 @@ def wait_for_element_to_appear(driver, timeout):
 
 
 def click_see_more(driver, content, selector=None):
-    """expects driver's instance and selenium element, click on "see more" link to open hidden content"""
+    # click on "see more" link to open hidden content
     try:
         if not selector:
             # find element and click 'see more' button

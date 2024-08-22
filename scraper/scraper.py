@@ -24,7 +24,7 @@ class Init:
 
     def set_properties(self, browser_option):
         if self.headless:
-            browser_option.add_argument('--headless')  # runs browser in headless mode
+            browser_option.add_argument('--headless')
         browser_option.add_argument('--no-sandbox')
         browser_option.add_argument("--disable-dev-shm-usage")
         browser_option.add_argument('--ignore-certificate-errors')

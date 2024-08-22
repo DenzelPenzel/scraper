@@ -35,10 +35,11 @@ async def bound_send_post(sem: asyncio.Semaphore, session: aiohttp.ClientSession
 async def main():
     username = os.getenv('USERNAME')
     password = os.getenv('PASS')
-    group_name = "UTrippers"
-    posts_count = 20
+    group_name = os.getenv('GROUP_NAME')
+    posts_count = 10
     timeout = 600
-    headless = True
+    # Do not set chrome_options.add_argument("--headless") to see the browser window
+    headless = False
     sem = asyncio.Semaphore(max_concurrent_requests)
 
     start_at = time.time()
@@ -48,7 +49,6 @@ async def main():
         posts_count=posts_count,
         isGroup=True,
         proxy=None,
-        # Do not set chrome_options.add_argument("--headless") to see the browser window
         headless=headless,
         username=username,
         password=password,

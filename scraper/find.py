@@ -18,39 +18,8 @@ ch.setFormatter(format)
 logger.addHandler(ch)
 
 
-def get_status_link(link_list):
-    status = ""
-    for link in link_list:
-        link_value = link.get_attribute("href")
-        if "/posts/" in link_value and "/groups/" in link_value:
-            status = link
-            break
-        if "/posts/" in link_value:
-            status = link
-            break
-        if "/videos/pcb" in link_value:
-            status = link
-            break
-        elif "/photos/" in link_value:
-            status = link
-            break
-        if "fbid=" in link_value:
-            status = link
-            break
-        elif "/group/" in link_value:
-            status = link
-            break
-        if "/videos/" in link_value:
-            status = link
-            break
-        elif "/groups/" in link_value:
-            status = link
-            break
-    return status
-
-
 def find_post_status(post, isGroup):
-    """finds URL of the post, then extracts link from that URL and returns it"""
+    # finds URL of the post, then extracts link from that URL and returns it
     try:
         link = None
         status_link = None
@@ -95,60 +64,6 @@ def find_post_status(post, isGroup):
     return status, status_link, link
 
 
-def find_share(post):
-    """finds shares count of the facebook post using selenium's webdriver's method"""
-    try:
-        element = post.find_element(
-            By.XPATH, './/div/span/div/span[contains(text(), " share")]'
-        )
-        shares = "0"
-        if not element:
-            return shares
-        return element.text.replace(' shares', '').replace(' share', '')
-    except NoSuchElementException:
-        # if element is not present that means there wasn't any shares
-        shares = 0
-
-    except Exception as ex:
-        logger.exception("Error at Find Share method : {}".format(ex))
-        shares = 0
-
-    return shares
-
-
-def find_reactions(post):
-    """finds all reaction of the facebook post using selenium's webdriver's method"""
-    try:
-        # find element that have attribute aria-label as 'See who reacted to this
-        reactions_all = post.find_element(
-            By.CSS_SELECTOR, '[aria-label="See who reacted to this"]'
-        )
-    except NoSuchElementException:
-        reactions_all = ""
-    except Exception as ex:
-        logger.exception("Error at find_reactions method : {}".format(ex))
-    return reactions_all
-
-
-def find_comments(post):
-    """finds comments count of the facebook post using selenium's webdriver's method"""
-    try:
-        element = post.find_element(
-            By.XPATH, './/div/span/div/span[contains(text(), " comment")]'
-        )
-        comments = 0
-        if element is None:
-            return comments
-        return element.text.replace(' comments', '').replace(' comment', '')
-    except NoSuchElementException:
-        comments = 0
-    except Exception as ex:
-        logger.exception("Error at find_comments method : {}".format(ex))
-        comments = 0
-
-    return comments
-
-
 def fetch_post_passage(href):
     response = urllib.request.urlopen(href)
 
@@ -175,7 +90,7 @@ def element_exists(element, css_selector):
 
 
 def find_post_content(post, driver):
-    """finds content of the facebook post using selenium's webdriver's method and returns string containing text of the posts"""
+    # finds content of the facebook post, returns string containing text of the posts
     try:
         post_content = post.find_element(
             By.CSS_SELECTOR, '[data-ad-preview="message"]'
@@ -210,7 +125,7 @@ def find_post_content(post, driver):
 
 
 def find_post_time(post, link_element, driver, isGroup):
-    """finds posted time of the facebook post using selenium's webdriver's method"""
+    # finds posted time of the facebook post
     try:
 
         if isGroup:
@@ -262,26 +177,8 @@ def find_post_time(post, link_element, driver, isGroup):
         return timestamp
 
 
-def find_video_url(post):
-    """finds video of the facebook post using selenium's webdriver's method"""
-    try:
-        # if video is found in the post, than create a video URL by concatenating post's id with page_name
-        video_element = post.find_elements(By.TAG_NAME, "video")
-        srcs = []
-        for video in video_element:
-            srcs.append(video.get_attribute("src"))
-    except NoSuchElementException:
-        video = []
-        pass
-    except Exception as ex:
-        video = []
-        logger.exception("Error at find_video_url method : {}".format(ex))
-
-    return srcs
-
-
 def find_post_image_url(post):
-    """finds all image of the facebook post using selenium's webdriver's method"""
+    # finds all image of the facebook post
     try:
         images = post.find_elements(
             By.CSS_SELECTOR, "div > img[referrerpolicy]"
@@ -302,7 +199,7 @@ def find_post_image_url(post):
 
 
 def find_all_posts(driver, isGroup):
-    """finds all posts of the facebook page using selenium's webdriver's method"""
+    # finds all posts of the facebook page
     try:
         # all_posts = driver.find_elements(By.CSS_SELECTOR, "div[role='feed'] > div")
         # different query selectors depending on if we are scraping a FB page or group
@@ -320,9 +217,8 @@ def find_all_posts(driver, isGroup):
 
 
 def find_post_name(driverOrPost):
-    """finds name of the facebook page or post using selenium's webdriver's method"""
+    # finds name of the facebook page or post
     # Attempt to print the outer HTML of the driverOrPost for debugging
-
     try:
         name = driverOrPost.find_element(By.TAG_NAME, "strong").get_attribute(
             "textContent"
@@ -343,27 +239,6 @@ def find_profile_image(driver, name):
         return [el.get_attribute("xlink:href") for el in profile_img]
     except Exception as ex:
         logger.exception("Error find_profile_image: {}".format(ex))
-
-
-def detect_ui(driver):
-    try:
-        driver.find_element(By.ID, "pagelet_bluebar")
-        return "old"
-    except NoSuchElementException:
-        return "new"
-    except Exception as ex:
-        logger.exception("Error art __detect_ui: {}".format(ex))
-        close_driver(driver)
-        sys.exit(1)
-
-
-def find_reaction(reactions_all):
-    try:
-        return reactions_all.find_elements(By.TAG_NAME, "div")
-
-    except Exception as ex:
-        logger.exception("Error at find_reaction : {}".format(ex))
-        return ""
 
 
 def accept_cookies(driver):
