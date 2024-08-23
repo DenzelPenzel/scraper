@@ -1,0 +1,54 @@
+#!/bin/bash
+
+cd $(dirname $0)
+
+# Compatibility logic for older Anaconda versions.
+if [ "${CONDA_EXE} " == " " ]; then
+    CONDA_EXE=$((find /opt/conda/bin/conda || find ~/anaconda3/bin/conda || \
+	    find /usr/local/anaconda3/bin/conda || find ~/miniconda3/bin/conda  || \
+	    find /opt/homebrew/anaconda3/bin/conda  || \
+        find /root/miniconda/bin/conda || find ~/Anaconda3/Scripts/conda || \
+	    find $CONDA/bin/conda) 2>/dev/null)
+fi
+
+if [ "${CONDA_EXE}_" == "_" ]; then
+    echo "Please install Anaconda w/ Python 3.7+ first"
+    echo "See: https://www.anaconda.com/distribution/"
+    exit 1
+fi
+
+CONDA_BIN=$(dirname ${CONDA_EXE})
+ENV_FILE=environment.yml
+
+if ${CONDA_EXE} env list | egrep -qe "^scraper"; then
+    ${CONDA_EXE} env update -f $ENV_FILE
+else
+    ${CONDA_EXE} env create -f $ENV_FILE
+fi
+
+source "${CONDA_BIN}/activate" scraper
+
+# Add the project directory to module search paths.
+conda develop .
+
+pre-commit install
+
+# The following logic is required to replace the grpcio package installed from conda binaries in Mac Intel
+# for binaries from Pypi. We need to do this because the conda binaries fro Mac Intel are broken.
+# We can't use the Pypi binaries universally because they are broken for Mac ARM (M1 and M2).
+# This logic can be removed once the grpcio conda binaries for Mac Intel are fixed
+OS=`uname`
+ARCH=`uname -m`
+
+if [[ "$OS" = "Darwin" && "$ARCH" = "x86_64" ]]; then
+  pip install grpcio --ignore-installed
+fi
+
+# Check for build-essential (only relevant for Debian-based systems)
+if [ "$(uname)" = "Linux" ]; then
+    if ! dpkg -s build-essential &> /dev/null; then
+        echo "build-essential not found, installing..."
+        sudo apt-get update && sudo apt-get upgrade -y
+        sudo apt-get install -y build-essential
+    fi
+fi

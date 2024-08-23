@@ -8438,3 +8438,110 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 1724328163483	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724333044638	geckodriver	INFO	Listening on 127.0.0.1:62714
+1724333045362	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofile70fssV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724333045540	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1724333045739	Marionette	INFO	Listening on port 62730
+WebDriver BiDi listening on ws://127.0.0.1:62715
+Read port: 62730
+1724333045868	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:62716","sslProxy":"[::ffff:7f00:1]:62716"}
+1724333045868	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1724333077770	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1724333084007	geckodriver	INFO	Listening on 127.0.0.1:62999
+1724333084640	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilevIeiKs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724333084799	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1724333084948	Marionette	INFO	Listening on port 63013
+Read port: 63013
+WebDriver BiDi listening on ws://127.0.0.1:63000
+1724333085030	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63001","sslProxy":"[::ffff:7f00:1]:63001"}
+1724333085030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1724333115482	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724333145496	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1724333159379	geckodriver	INFO	Listening on 127.0.0.1:63500
+1724333160031	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofilenpyYlF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724333160226	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1724333160425	Marionette	INFO	Listening on port 63518
+WebDriver BiDi listening on ws://127.0.0.1:63501
+Read port: 63518
+1724333160692	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63502","sslProxy":"[::ffff:7f00:1]:63502"}
+1724333160692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1724333177619	geckodriver	INFO	Listening on 127.0.0.1:63648
+1724333178253	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileWEFhRE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724333178409	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1724333178645	Marionette	INFO	Listening on port 63661
+WebDriver BiDi listening on ws://127.0.0.1:63649
+Read port: 63661
+1724333178804	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63650","sslProxy":"[::ffff:7f00:1]:63650"}
+1724333178805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1724333210558	geckodriver	INFO	Listening on 127.0.0.1:63892
+1724333211201	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/43nry6mx5g18tslq7znr8cn00000gn/T/rust_mozprofileZE0c5I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724333211359	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-ignore-certificate-errors"
+console.error: "Warning: unrecognized command line flag" "-log-level"
+console.error: "Warning: unrecognized command line flag" "-disable-notifications"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1724333211592	Marionette	INFO	Listening on port 63910
+WebDriver BiDi listening on ws://127.0.0.1:63893
+Read port: 63910
+1724333211706	RemoteAgent	INFO	Proxy settings initialized: {"proxyType":"manual","httpProxy":"[::ffff:7f00:1]:63894","sslProxy":"[::ffff:7f00:1]:63894"}
+1724333211706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+1724333241938	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724333273201	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: aWindow is null
+1724333291222	Marionette	INFO	Stopped listening on port 63013
+1724333293010	Marionette	INFO	Stopped listening on port 63910
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1724421883081	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724427018879	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.

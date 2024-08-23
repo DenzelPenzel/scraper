@@ -1,0 +1,46 @@
+---
+version: 1
+template_version: 12
+
+formatters:
+  simple:
+    format: "%(asctime)s - %(process)d - %(name)s - %(levelname)s - %(message)s"
+
+handlers:
+  console:
+    class: scraper.logger.cli_handler.CLIHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+  console_warning:
+    class: scraper.logger.cli_handler.CLIHandler
+    level: WARNING
+    formatter: simple
+    stream: ext://sys.stdout
+  console_info:
+    class: scraper.logger.cli_handler.CLIHandler
+    level: INFO
+    formatter: simple
+    stream: ext://sys.stdout
+  file_handler:
+    class: logging.handlers.TimedRotatingFileHandler
+    level: DEBUG
+    formatter: simple
+    filename: $PROJECT_DIR/logs/logs_scraper.log
+    encoding: utf8
+    when: "D"
+    interval: 1
+    backupCount: 7
+  "null":
+    class: logging.NullHandler
+    level: DEBUG
+
+loggers:
+  conf:
+    level: NETWORK
+    handlers: ["null"]
+    propagate: false
+
+root:
+  level: INFO
+  handlers: [console, file_handler]
