@@ -42,8 +42,9 @@ class Init:
 
     def init(self) -> webdriver.Firefox:
         browser_option = FirefoxOptions()
+        browser_option.set_capability('marionette', True)
         # automatically installs chromedriver and initialize it and returns the instance
-        firefox_service = FirefoxService(executable_path=GeckoDriverManager().install())
+        firefox_service = FirefoxService(executable_path='/usr/local/bin/geckodriver', log_path='geckodriver.log')
 
         if self.proxy is not None:
             options = {
