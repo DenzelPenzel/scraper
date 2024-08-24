@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 from scraper import init_logging
 from scraper.app.scraper_app import FbScraper
-from scraper.utils.csv import save_csv
+from scraper.utils.csv import save_csv, upload_data
 
 load_dotenv()
 
@@ -22,23 +22,12 @@ logger = logging.getLogger(__name__)
 max_concurrent_requests = 10
 
 
-async def upload_data(session: aiohttp.ClientSession, data: dict) -> None:
-    try:
-        server_uri = os.getenv('SERVER_URL')
-        async with session.post(server_uri, json=data, headers=None) as resp:
-            resp.raise_for_status()
-            result = await resp.json()
-            logger.info(f"Successfully sent data: {result}")
-    except aiohttp.ClientError as e:
-        logger.error(f"Request failed for data: {data['name']} with error: {str(e)}")
-
-
 async def bound_send_post(sem: asyncio.Semaphore, session: aiohttp.ClientSession, data: dict) -> None:
     async with sem:
         await upload_data(session, data)
 
 
-async def run_application():
+async def run_application() -> None:
     username = os.getenv('USERNAME')
     password = os.getenv('PASS')
     group_name = os.getenv('GROUP_NAME')

@@ -1,8 +1,11 @@
 import csv
 import logging
+import os
 from datetime import datetime
 from os.path import exists, join
 from typing import Set
+
+import aiohttp
 
 from scraper import data_path
 
@@ -46,3 +49,14 @@ def save_csv(data):
                 })
     except Exception as ex:
         logger.error(f'Error at save to csv: {ex}')
+
+
+async def upload_data(session: aiohttp.ClientSession, data: dict) -> None:
+    try:
+        server_uri = os.getenv('SERVER_URL')
+        async with session.post(server_uri, json=data, headers=None) as resp:
+            resp.raise_for_status()
+            result = await resp.json()
+            logger.info(f"Successfully sent data: {result}")
+    except aiohttp.ClientError as e:
+        logger.error(f"Request failed for data: {data['name']} with error: {str(e)}")
