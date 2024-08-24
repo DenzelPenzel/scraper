@@ -5,7 +5,6 @@ import time
 from os.path import join
 
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
-from selenium.webdriver.firefox.service import Service as FirefoxService
 from seleniumwire import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
 
@@ -31,21 +30,19 @@ class Init:
     def set_properties(self, browser_option):
         if self.headless:
             browser_option.add_argument('--headless')
-        browser_option.add_argument('--no-sandbox')
+        # browser_option.add_argument('--no-sandbox')
         browser_option.add_argument("--disable-dev-shm-usage")
         browser_option.add_argument('--ignore-certificate-errors')
         browser_option.add_argument('--disable-gpu')
-        browser_option.add_argument('--log-level=3')
+        # browser_option.add_argument('--log-level=3')
         browser_option.add_argument('--disable-notifications')
-        browser_option.add_argument('--disable-popup-blocking')
+        # browser_option.add_argument('--disable-popup-blocking')
         return browser_option
 
     def init(self) -> webdriver.Firefox:
         browser_option = FirefoxOptions()
-        browser_option.set_capability('marionette', True)
-        browser_option.set_preference('marionette.port', 4444)
         # automatically installs chromedriver and initialize it and returns the instance
-        firefox_service = FirefoxService(executable_path='/usr/local/bin/geckodriver', log_path='geckodriver.log')
+        # firefox_service = FirefoxService(executable_path=GeckoDriverManager().install(), log_path='geckodriver.log')
 
         if self.proxy is not None:
             options = {
@@ -57,8 +54,7 @@ class Init:
             return webdriver.Firefox(executable_path=GeckoDriverManager().install(),
                                      options=self.set_properties(browser_option), seleniumwire_options=options)
 
-        return webdriver.Firefox(service=firefox_service,
-                                 options=self.set_properties(browser_option))
+        return webdriver.Firefox(options=self.set_properties(browser_option), log_path='geckodriver.log')
 
 
 class FbScraper:
