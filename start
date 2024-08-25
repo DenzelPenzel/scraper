@@ -1,13 +1,15 @@
 #!/bin/bash
 
 
-# Check if bin/dracula.py exists
+# Check if bin/main.py exists
 if [[ ! -f bin/main.py ]]; then
     echo "Error: bin/main.py command not found. Make sure you are in the root directory"
     exit 1
 fi
 
-# Check if the dracula conda environment is activated
+source activate scraper
+
+# Check if the conda environment is activated
 if [[ $CONDA_DEFAULT_ENV != "scraper" ]]; then
     echo "Error: 'scraper' conda environment is not activated. Please activate it and try again."
     exit 1
