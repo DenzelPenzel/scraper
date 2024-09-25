@@ -110,6 +110,25 @@ class FbScraper:
     def reach_timeout(self, start_time, current_time) -> bool:
         return (current_time - start_time) > self.timeout
 
+    def parse_page(self, url: str):
+        self._init_driver()
+
+        self.driver.get(self.URL)
+
+        sutils.accept_cookies(self.driver)
+        # pass login and pass
+        self.username is not None and sutils.login(self.driver, self.username, self.password)
+
+        # sometimes we get popup that says "your request couldn't be processed", however
+        # posts are loading in background if popup is closed, so call this method in case if it pops up.
+        sutils.close_error_popup(self.driver)
+
+        self._handle_popup()
+
+        self.driver.get(url)
+        images = sutils.find_profile_image(self.driver, 'Sophia Ivanova')
+        self.logger().info(f"Found images: {images}")
+
     def scrap_to_json(self):
         self._init_driver()
         start_at = time.time()
@@ -179,6 +198,7 @@ class FbScraper:
         for key, item in self.data_dct.items():
             try:
                 self.driver.get(item['profile_url'])
+                sutils.wait_for_element_to_appear(self.driver, self.timeout)
                 images = sutils.find_profile_image(self.driver, item['name'])
                 if not images:
                     self.logger().info(f"Not found profile image name: {item['name']} url: {item['profile_url']}")

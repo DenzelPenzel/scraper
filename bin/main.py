@@ -34,7 +34,7 @@ async def run_application() -> None:
     posts_count = 10
     timeout = 600
     # Do not set chrome_options.add_argument("--headless") to see the browser window
-    headless = False
+    headless = True
     sem = asyncio.Semaphore(max_concurrent_requests)
 
     init_logging("scrapper_logs.yml")
