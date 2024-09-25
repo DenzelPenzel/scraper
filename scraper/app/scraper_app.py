@@ -130,6 +130,7 @@ class FbScraper:
         self.logger().info(f"Found images: {images}")
 
     def scrap_to_json(self):
+        self.logger().info("Scraping posts and saving them as JSON...")
         self._init_driver()
         start_at = time.time()
 
