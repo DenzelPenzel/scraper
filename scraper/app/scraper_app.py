@@ -213,7 +213,7 @@ class FbScraper:
     def sleep(self, start_at):
         if self.reach_timeout(start_at, time.time()):
             self.logger().info('Timeout...')
-            time.sleep(60.0)
+            time.sleep(self.timeout)
             return time.time()
         else:
             return start_at
