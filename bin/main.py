@@ -16,10 +16,7 @@ from scraper.app.scraper_app import FbScraper
 from scraper.utils.csv import save_csv, upload_data
 
 load_dotenv()
-
-logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
 max_concurrent_requests = 10
 
 
@@ -42,7 +39,6 @@ async def run_application() -> None:
 
     init_logging("scrapper_logs.yml")
     start_at = time.time()
-    logger.info("Start scrapper app")
 
     s = FbScraper(
         page_or_group_name=group_name,

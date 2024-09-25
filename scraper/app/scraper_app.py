@@ -40,7 +40,7 @@ class Init:
         browser_option.add_argument("--disable-dev-shm-usage")
         browser_option.add_argument('--ignore-certificate-errors')
         browser_option.add_argument('--disable-gpu')
-        # browser_option.add_argument('--log-level=3')
+        browser_option.add_argument('--log-level=3')
         browser_option.add_argument('--disable-notifications')
         # browser_option.add_argument('--disable-popup-blocking')
         return browser_option
