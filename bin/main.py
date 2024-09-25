@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import argparse
 import asyncio
 import json
 import logging
@@ -28,13 +29,15 @@ async def bound_send_post(sem: asyncio.Semaphore, session: aiohttp.ClientSession
 
 
 async def run_application() -> None:
+    parser = argparse.ArgumentParser(description="App parse facebook posts and user activities")
+    parser.add_argument("-t", "--timeout", help="Set up page element timeout", default=30)
+    parser.add_argument("-c", "--count", help="Set up count posts", default=10)
+    parser.add_argument("-h", "--headless", help="Use headless", default=True)
+
+    args = parser.parse_args()
     username = os.getenv('USERNAME')
     password = os.getenv('PASS')
     group_name = os.getenv('GROUP_NAME')
-    posts_count = 10
-    timeout = 600
-    # Do not set chrome_options.add_argument("--headless") to see the browser window
-    headless = True
     sem = asyncio.Semaphore(max_concurrent_requests)
 
     init_logging("scrapper_logs.yml")
@@ -43,13 +46,13 @@ async def run_application() -> None:
 
     s = FbScraper(
         page_or_group_name=group_name,
-        posts_count=posts_count,
+        posts_count=args.count,
         isGroup=True,
         proxy=None,
-        headless=headless,
+        headless=args.headless,
         username=username,
         password=password,
-        timeout=timeout
+        timeout=args.timeout
     )
 
     try:
@@ -57,17 +60,14 @@ async def run_application() -> None:
         logger.info(f"Script running time {time.time() - start_at}")
         json_data = json.loads(data)
         logger.info(f"Parsed {len(json_data)} posts, saving phase...")
-
         # save parsed data to csv file
         save_csv(json_data)
-
         async with aiohttp.ClientSession() as session:
             tasks = [
                 asyncio.create_task(bound_send_post(sem, session, json_data[key]))
                 for key in json_data
             ]
             await asyncio.gather(*tasks)
-
         logger.info("Done!")
 
     except Exception as ex:

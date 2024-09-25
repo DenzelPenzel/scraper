@@ -57,6 +57,6 @@ async def upload_data(session: aiohttp.ClientSession, data: dict) -> None:
         async with session.post(server_uri, json=data, headers=None) as resp:
             resp.raise_for_status()
             result = await resp.json()
-            logger.info(f"Successfully sent data: {result}")
+            logger.info(f"Successfully save post: {result}")
     except aiohttp.ClientError as e:
-        logger.error(f"Request failed for data: {data['name']} with error: {str(e)}")
+        logger.error(f"Failed to save post: {data['name']} with error: {str(e)}")

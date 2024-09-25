@@ -110,7 +110,7 @@ class FbScraper:
     def reach_timeout(self, start_time, current_time) -> bool:
         return (current_time - start_time) > self.timeout
 
-    def parse_page(self, url: str):
+    def parse_page(self, url: str, name: str):
         self._init_driver()
 
         self.driver.get(self.URL)
@@ -126,7 +126,7 @@ class FbScraper:
         self._handle_popup()
 
         self.driver.get(url)
-        images = sutils.find_profile_image(self.driver, 'Sophia Ivanova')
+        images = sutils.find_profile_image(self.driver, name)
         self.logger().info(f"Found images: {images}")
 
     def scrap_to_json(self):
@@ -155,12 +155,11 @@ class FbScraper:
                 found_posts = len(posts)
                 start_at = self.sleep(start_at)
                 sutils.scroll_down(self.driver)
-                self.logger().info(f"Found {found_posts} posts")
 
             self._handle_popup()
             posts = sutils.find_all_posts(self.driver, self.isGroup)
 
-            self.logger().info(f"Processed {len(self.data_dct)} posts")
+            self.logger().info(f"Processed {len(self.data_dct)} posts 🎊 continue...")
 
             for post in posts:
                 try:
@@ -190,7 +189,7 @@ class FbScraper:
                         "create_at": create_at,
                     }
                 except Exception as ex:
-                    self.logger().exception(f"Processing post error : {ex}")
+                    self.logger().exception(f"Failed to process the post, error: {ex}")
 
             start_at = self.sleep(start_at)
             sutils.scroll_down(self.driver)
