@@ -32,7 +32,7 @@ async def run_application() -> None:
     parser = argparse.ArgumentParser(description="App parse facebook posts and user activities")
     parser.add_argument("-t", "--timeout", help="Set up page element timeout", default=30)
     parser.add_argument("-c", "--count", help="Set up count posts", default=10)
-    parser.add_argument("-h", "--headless", help="Use headless", default=True)
+    parser.add_argument("-hl", "--headless", help="Use headless", default=True)
 
     args = parser.parse_args()
     username = os.getenv('USERNAME')
