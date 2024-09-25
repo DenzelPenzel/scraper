@@ -1,10 +1,12 @@
 import json
 import logging
 import os
+import platform
 import time
 from os.path import join
 
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.firefox.service import Service as FirefoxService
 from seleniumwire import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
 
@@ -13,6 +15,10 @@ import scraper.utils.selenium_utils as sutils
 from scraper import data_path
 
 s_logger = None
+
+
+def is_macos_platform():
+    return platform.system() == 'Darwin'
 
 
 class Init:
@@ -42,7 +48,7 @@ class Init:
     def init(self) -> webdriver.Firefox:
         browser_option = FirefoxOptions()
         # automatically installs chromedriver and initialize it and returns the instance
-        # firefox_service = FirefoxService(executable_path=GeckoDriverManager().install(), log_path='geckodriver.log')
+        firefox_service = FirefoxService(executable_path=GeckoDriverManager().install(), log_path='geckodriver.log')
 
         if self.proxy is not None:
             options = {
@@ -54,7 +60,11 @@ class Init:
             return webdriver.Firefox(executable_path=GeckoDriverManager().install(),
                                      options=self.set_properties(browser_option), seleniumwire_options=options)
 
-        return webdriver.Firefox(options=self.set_properties(browser_option), log_path='geckodriver.log')
+        if is_macos_platform():
+            return webdriver.Firefox(service=firefox_service, options=self.set_properties(browser_option),
+                                     log_path='geckodriver.log')
+        else:
+            return webdriver.Firefox(options=self.set_properties(browser_option), log_path='geckodriver.log')
 
 
 class FbScraper:
@@ -170,6 +180,8 @@ class FbScraper:
             try:
                 self.driver.get(item['profile_url'])
                 images = sutils.find_profile_image(self.driver, item['name'])
+                if not images:
+                    self.logger().info(f"Not found profile image name: {item['name']} url: {item['profile_url']}")
                 self.data_dct[key]['profile_images'] = images
                 time.sleep(3.0)
             except Exception as ex:

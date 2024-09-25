@@ -34,25 +34,26 @@ async def run_application() -> None:
     posts_count = 10
     timeout = 600
     # Do not set chrome_options.add_argument("--headless") to see the browser window
-    headless = True
+    headless = False
     sem = asyncio.Semaphore(max_concurrent_requests)
 
     init_logging("scrapper_logs.yml")
     start_at = time.time()
     logger.info("Start scrapper app")
 
-    try:
-        data = FbScraper(
-            page_or_group_name=group_name,
-            posts_count=posts_count,
-            isGroup=True,
-            proxy=None,
-            headless=headless,
-            username=username,
-            password=password,
-            timeout=timeout
-        ).scrap_to_json()
+    s = FbScraper(
+        page_or_group_name=group_name,
+        posts_count=posts_count,
+        isGroup=True,
+        proxy=None,
+        headless=headless,
+        username=username,
+        password=password,
+        timeout=timeout
+    )
 
+    try:
+        data = s.scrap_to_json()
         logger.info(f"Script running time {time.time() - start_at}")
         json_data = json.loads(data)
         logger.info(f"Parsed {len(json_data)} posts, saving phase...")
